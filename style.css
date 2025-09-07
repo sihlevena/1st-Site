@@ -1,0 +1,58 @@
+
+
+.header {
+    background-color: rgb(231, 136, 219);
+    text-align: center;
+    
+}
+
+.about-me {
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.title {
+    font-weight: bold;
+}
+
+h1 {
+    color: azure;
+}
+
+body {
+    background-color: rgb(230, 20, 202);
+    font-family: Georgia;
+    background-image: url(https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+     text-align: center;
+}
+
+ video {
+      display: none; /* hidden at first */
+      margin-top: 20px;
+      width: 500px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+      /* Style for the button */
+    button {
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    }
+
+
+

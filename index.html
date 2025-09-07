@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="header">
+    <img src="c:\Users\HP PC\Documents\HTML 5\CSS_U1_ASS2\CSS_U1_ASS2\Forest pic.png" width="300" height="300" />
+    <h1>WELCOM TO FOREST'S WEBSITE</h1>
+    <p class="about-me">I am a developer specializing in HTML and CSS. I like to run, bike, and make coffee using an Aeropress.</p>
+  </div>
+
+<h2>There is something special waiting for you down below</h2>
+
+  <h3><strong>Click the button below to find a suprise</strong></h3>
+
+    <button onclick="showVideo()">Click Me</button>
+
+  <video id="myVideo" controls>
+    <source src="BesFreind.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+
+  <script>
+    function showVideo() {
+      let video = document.getElementById("myVideo");
+      video.style.display = "block";
+      video.play(); // start playing automatically
+    }
+  </script>
+
+</body>
+
+</html>
